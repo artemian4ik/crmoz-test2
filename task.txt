@@ -1,0 +1,21 @@
+Title: Creating a Sales Order Form for Zoho Inventory Using Vue.js (Форма по функциональности должна быть максимально приближена к интерфейсу Зохо Инвентори, особое внимание на табличную часть саб форму)
+Objective: To create a web form that allows users to create a sales order for Zoho Inventory using Vue.js and the Zoho Inventory API. The form should also take into account the creation of a customer and the creation of a purchase order if some items are not in stock.
+Scope: The form will be created using Vue.js and the Zoho Inventory API. It will include the following features:
+•	Ability to select items from a list of available items in the Zoho Inventory
+•	Ability to create a customer and a sales order for Zoho Inventory
+•	Ability to create a purchase order for any items that are not in stock
+•	Display of the items and quantities for which purchase orders need to be created
+•	Ability to submit the form and send the data to the Zoho Inventory API
+Requirements: The form should include the following fields:
+•	Customer name and contact information
+•	Item name, quantity, and price (selected from a list of available items)
+•	Checkbox to indicate if a purchase order needs to be created
+•	Display of the items and quantities for which purchase orders need to be created
+•	Submit button to send the data to the Zoho Inventory API
+The form should also include the following functionality:
+•	Ability to dynamically add or remove items from the form
+•	Ability to dynamically create purchase orders based on the selected items and vendors
+•	Ability to validate form data and display error messages as needed
+•	Use of Vue.js to create a dynamic and responsive user interface
+Deliverables: The final deliverable will be a fully functional web form that allows users to create sales orders for Zoho Inventory using Vue.js and the Zoho Inventory API. The form should be tested and validated to ensure that it is working correctly and meets all the requirements outlined in this terms of reference.
+Development time: 5 days
