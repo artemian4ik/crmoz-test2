@@ -35,7 +35,7 @@
             activeItem === item.name ? 'bg-gray-700 border-l-4 border-blue-500' : ''
           ]"
         >
-          <span class="text-2xl"></span>
+          <span class="mx-auto" v-show="!isOpen" >{{ item.label.charAt(0).toUpperCase() }}</span>
           <span 
             v-show="isOpen" 
             class="ml-4 transition-opacity"
